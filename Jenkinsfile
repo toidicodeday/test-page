@@ -3,7 +3,7 @@ pipeline{
     stages {
        stage('Clone') {
           steps {
-              git 'git@github.com:toidicodeday/test-page.git'
+              git 'https://github.com/toidicodeday/test-page.git'
           }
        }
     }
